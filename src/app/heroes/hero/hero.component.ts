@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class HeroComponent {
 
-  public name: string = "ironMan";
+  public name: string = "IronMan";
   public age: number = 45;
 
   get capitalizedName(): string{
@@ -24,5 +24,10 @@ export class HeroComponent {
 
   changeAge(): void{
     this.age = 16;
+  }
+
+  resetParam(): void {
+    this.name = 'IronMan';
+    this.age = 45;
   }
 }
