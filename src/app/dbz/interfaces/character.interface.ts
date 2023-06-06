@@ -4,4 +4,4 @@ export interface Character {
     power: number;
 }
 
-//Este es un mensaje desde master
+//Cambio de mensaje, modificado en la rama c
